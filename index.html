@@ -12,6 +12,8 @@
 		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="css/demo.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component2.css" />
 		<script src="js/snap.svg-min.js"></script>
 		<!--[if IE]>
   		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -39,6 +41,28 @@
 						</figcaption>
 					</figure>
 				</a>
+
+
+
+				<div class="md-modal md-effect-18" id="modal-18">
+					<div class="md-content">
+						<h3>Modal Dialog</h3>
+						<div>
+							<p>This is a modal window. You can do the following things with it:</p>
+							<ul>
+								<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+								<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+								<li><strong>Close:</strong> click on the button below to close the modal.</li>
+							</ul>
+							<button class="md-close">Close me!</button>
+						</div>
+					</div>
+				</div>
+
+
+				<button class="md-trigger md-setperspective" data-modal="modal-18">Make way!</button>
+
+
 				<a href="#" data-path-hover="M 0,0 0,38 90,58 180.5,38 180,0 z">
 					<figure>
 						<img src="img/2.png" />
@@ -123,6 +147,10 @@
 				<div><a href="http://tympanus.net/Development/AnimatedSVGIcons/"><h4>Animated SVG Icons</h4></a></div>
 			</section>
 		</div><!-- /container -->
+		<script src="js/classie.js"></script>
+		<script src="js/modalEffects.js"></script>
+		<script src="js/cssParser.js"></script>
+		<script src="js/css-filters-polyfill.js"></script>
 		<script>
 			(function() {
 	
